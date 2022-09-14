@@ -1,0 +1,49 @@
+body{
+    color:black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: white url(../img/rio.jpg) no-repeat;
+    background-size: 100%
+}
+
+.container{
+    width: 80%;
+    background-color:white;
+    margin-left: 10%;
+}
+
+.mainav{
+    background-color: olive;
+    color: darkred;
+}
+
+.mainav li{
+    display: inline;
+    padding: 5% 5%;
+}
+
+.mainav li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+.content {
+    width: 74%;
+    float: left;
+    background-color: white;
+    font-size: 90%;
+    padding: 6%;
+}
+.mainleft {
+    float: right;
+    width: 14%;
+    background-color: aqua;
+}
+.content p {
+    text-align: justify;
+}
+.footer {
+    clear: both;
+    background-color: olive;
+    color: white;
+}
