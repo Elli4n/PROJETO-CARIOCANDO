@@ -27,8 +27,13 @@ body{
     font-size: 14px;
     color: white;
 }
+.mainav li a:hover, a:active {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
 .content {
-    width: 74%;
+    width: 64%;
     float: left;
     background-color: white;
     font-size: 90%;
@@ -36,14 +41,24 @@ body{
 }
 .mainleft {
     float: right;
-    width: 14%;
-    background-color: aqua;
-}
+    width: 24%;}
 .content p {
     text-align: justify;
 }
-.footer {
+.footer{
     clear: both;
+    font-size: 14px;
+    color:white;
     background-color: olive;
-    color: white;
 }
+
+.contentp {
+    background-size: 100%;
+    background-color: white;
+    font-size: 90%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+  }
+
+  
